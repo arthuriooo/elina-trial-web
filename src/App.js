@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import styled, { keyframes } from "styled-components";
 import Triangle from "./Triangle.svg";
@@ -113,16 +113,16 @@ const CircleHalf = styled.div`
   }
 `;
 
-const Back = styled.div`
-  position: absolute;
-  width: 300%;
-  height: 300%;
+// const Back = styled.div`
+//   position: absolute;
+//   width: 300%;
+//   height: 300%;
 
-  animation: ${spin} 2s infinite;
+//   animation: ${spin} 2s infinite;
 
-  border: 4px solid blue;
-  box-sizing: border-box;
-`;
+//   border: 4px solid blue;
+//   box-sizing: border-box;
+// `;
 
 const Arrow = styled.img`
   width: 80px;
