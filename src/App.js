@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import styled, { keyframes } from "styled-components";
 import Triangle from "./Triangle.svg";
 
-const spin = keyframes`
-from {transform: rotate(0deg)}
-to {transform: rotate(360deg)}
-`;
+// const spin = keyframes`
+// from {transform: rotate(0deg)}
+// to {transform: rotate(360deg)}
+// `;
 
 const spin2 = keyframes`
 from {transform: rotate(0deg)}
